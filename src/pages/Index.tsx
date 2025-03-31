@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import StatsCard from '@/components/StatsCard';
@@ -12,10 +11,10 @@ import { Button } from '@/components/ui/button';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-eco-gray dark:bg-slate-900">
+    <div className="min-h-screen flex flex-col bg-gradient-aqua text-white dark:bg-eco-aqua-900">
       <Navbar />
       
-      <main className="flex-1 container mx-auto px-4 py-6">
+      <main className="flex-1 container mx-auto px-4 py-6 bg-transparent">
         <div className="mb-6">
           <h1 className="text-3xl font-bold tracking-tight">
             Hybrid Cooling & CO₂ Capture Dashboard
@@ -194,7 +193,7 @@ const Index = () => {
         </Card>
       </main>
       
-      <footer className="bg-white dark:bg-slate-800 border-t border-border py-6">
+      <footer className="bg-eco-aqua-600 text-white border-t border-eco-aqua-500 py-6">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">

@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -71,6 +70,20 @@ export default {
 				'eco-teal': '#4DB6AC',
 				'eco-gray': '#F5F7FA',
 				'eco-charcoal': '#263238',
+				'eco-aqua': {
+					DEFAULT: '#4DB6AC',
+					50: '#E0F2F1',
+					100: '#B2DFDB',
+					200: '#80CBC4',
+					300: '#4DB6AC',
+					400: '#26A69A',
+					500: '#009688',
+					600: '#00897B',
+					700: '#00796B',
+				},
+				backgroundImage: {
+					'gradient-aqua': 'linear-gradient(135deg, #4DB6AC 0%, #00897B 100%)',
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
