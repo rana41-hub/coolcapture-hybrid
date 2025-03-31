@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Leaf, Cloud, Thermometer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -36,7 +35,11 @@ const Navbar = () => {
             <span>420ppm</span>
           </div>
           
-          <Button variant="outline" size="sm" className="hidden md:flex border-eco-aqua-300 text-white hover:bg-eco-aqua-600/50">
+          <Button 
+            variant="outline" 
+            size="sm" 
+            className="hidden md:flex border-eco-aqua-900 bg-eco-charcoal/50 text-white hover:bg-eco-aqua-800/70"
+          >
             Connect Device
           </Button>
           
