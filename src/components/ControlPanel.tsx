@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Switch } from '@/components/ui/switch';
 import { Slider } from '@/components/ui/slider';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { AirVent, Cloud, Sun, Wind, Thermometer, Leaf } from 'lucide-react';
+import { AirVent, Cloud, Sun, Wind, Thermometer, Leaf, Battery } from 'lucide-react';
 
 const ControlPanel = () => {
   return (
